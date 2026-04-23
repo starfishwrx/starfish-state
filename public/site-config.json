@@ -1,0 +1,358 @@
+{
+  "site": {
+    "site_name": "你的名字",
+    "avatar_url": "https://avatars.githubusercontent.com/u/9919?s=300&v=4",
+    "location": "你的城市",
+    "contact_email": "hello@example.com",
+    "github_url": "https://github.com/yourname",
+    "footer_brand": "你的名字",
+    "footer_site_url": "https://github.com/yourname",
+    "footer_site_label": "GitHub"
+  },
+  "hero": {
+    "headline_prefix": "Hello I'm",
+    "headline_highlight": "你的名字",
+    "role_title": "你的领域 Engineer",
+    "intro_summary": "我专注将复杂需求拆解为可落地的产品方案，并用工程质量保证持续交付。",
+    "opportunity_statement": "寻找 AI 相关的机会",
+    "sponsor_image_url": null,
+    "qq_image_url": null,
+    "snake_light_url": "https://raw.githubusercontent.com/Tendo33/Tendo33/output/github-snake.svg",
+    "snake_dark_url": "https://raw.githubusercontent.com/Tendo33/Tendo33/output/github-snake-dark.svg",
+    "skills_image_url": "https://skillicons.dev/icons?i=ts,react,vite,py,fastapi,postgres,docker,git&perline=8"
+  },
+  "icons": [
+    {
+      "id": 1,
+      "title": "GitHub",
+      "icon_name": "github",
+      "action_type": "link",
+      "href": "https://github.com/yourname",
+      "payload": null,
+      "sort_order": 10,
+      "is_active": true,
+      "created_at": "",
+      "updated_at": ""
+    },
+    {
+      "id": 2,
+      "title": "邮箱",
+      "icon_name": "mail",
+      "action_type": "copy",
+      "href": null,
+      "payload": "hello@example.com",
+      "sort_order": 20,
+      "is_active": true,
+      "created_at": "",
+      "updated_at": ""
+    },
+    {
+      "id": 3,
+      "title": "后台",
+      "icon_name": "lock",
+      "action_type": "admin",
+      "href": "/admin",
+      "payload": null,
+      "sort_order": 30,
+      "is_active": true,
+      "created_at": "",
+      "updated_at": ""
+    },
+    {
+      "id": 4,
+      "title": "主题",
+      "icon_name": "theme",
+      "action_type": "theme_toggle",
+      "href": null,
+      "payload": null,
+      "sort_order": 40,
+      "is_active": true,
+      "created_at": "",
+      "updated_at": ""
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "section_key": "sites",
+      "title": "My Sites",
+      "icon_name": "blocks",
+      "sort_order": 10,
+      "items": [
+        {
+          "id": 101,
+          "category_id": 1,
+          "title": "Blog",
+          "description": "长文笔记和项目记录。",
+          "href": "https://example.com/blog",
+          "image_url": null,
+          "badge": "BL",
+          "note": "持续更新",
+          "open_in_new_tab": true,
+          "sort_order": 10,
+          "is_active": true,
+          "created_at": "",
+          "updated_at": ""
+        },
+        {
+          "id": 102,
+          "category_id": 1,
+          "title": "作品集",
+          "description": "集中展示项目、文章和联系方式。",
+          "href": "https://example.com/portfolio",
+          "image_url": null,
+          "badge": "PF",
+          "note": "个人主页",
+          "open_in_new_tab": true,
+          "sort_order": 20,
+          "is_active": true,
+          "created_at": "",
+          "updated_at": ""
+        },
+        {
+          "id": 103,
+          "category_id": 1,
+          "title": "Star Graph",
+          "description": "把 GitHub Star 做成一张知识地图。",
+          "href": "https://example.com/stars",
+          "image_url": null,
+          "badge": "SG",
+          "note": "可视化",
+          "open_in_new_tab": true,
+          "sort_order": 30,
+          "is_active": true,
+          "created_at": "",
+          "updated_at": ""
+        },
+        {
+          "id": 104,
+          "category_id": 1,
+          "title": "IdeaGo",
+          "description": "收集产品灵感并追踪验证过程。",
+          "href": "https://example.com/ideago",
+          "image_url": null,
+          "badge": "IG",
+          "note": "研究工具",
+          "open_in_new_tab": true,
+          "sort_order": 40,
+          "is_active": true,
+          "created_at": "",
+          "updated_at": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "section_key": "projects",
+      "title": "Projects",
+      "icon_name": "briefcase",
+      "sort_order": 20,
+      "items": [
+        {
+          "id": 201,
+          "category_id": 2,
+          "title": "Markio",
+          "description": "把杂乱内容整理成清晰的 Markdown。",
+          "href": "https://github.com/yourname/markio",
+          "image_url": null,
+          "badge": "MK",
+          "note": "内容整理",
+          "open_in_new_tab": true,
+          "sort_order": 10,
+          "is_active": true,
+          "created_at": "",
+          "updated_at": ""
+        },
+        {
+          "id": 202,
+          "category_id": 2,
+          "title": "SimonHome",
+          "description": "本个人站的前端样式参考和重构来源。",
+          "href": "https://github.com/Tendo33/SimonHome",
+          "image_url": null,
+          "badge": "SH",
+          "note": "前端参考",
+          "open_in_new_tab": true,
+          "sort_order": 20,
+          "is_active": true,
+          "created_at": "",
+          "updated_at": ""
+        },
+        {
+          "id": 203,
+          "category_id": 2,
+          "title": "data-tagger",
+          "description": "面向数据标注和样本整理的辅助工具。",
+          "href": "https://github.com/yourname/data-tagger",
+          "image_url": null,
+          "badge": "DT",
+          "note": "数据处理",
+          "open_in_new_tab": true,
+          "sort_order": 30,
+          "is_active": true,
+          "created_at": "",
+          "updated_at": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "section_key": "plugins",
+      "title": "Plugins",
+      "icon_name": "code",
+      "sort_order": 30,
+      "items": [
+        {
+          "id": 301,
+          "category_id": 3,
+          "title": "zhihu2md",
+          "description": "把内容平台页面转成可复用的 Markdown。",
+          "href": "https://example.com/zhihu2md",
+          "image_url": null,
+          "badge": "ZM",
+          "note": "导出插件",
+          "open_in_new_tab": true,
+          "sort_order": 10,
+          "is_active": true,
+          "created_at": "",
+          "updated_at": ""
+        },
+        {
+          "id": 302,
+          "category_id": 3,
+          "title": "arxiv2md",
+          "description": "把论文摘要整理进个人知识库。",
+          "href": "https://example.com/arxiv2md",
+          "image_url": null,
+          "badge": "AM",
+          "note": "学术阅读",
+          "open_in_new_tab": true,
+          "sort_order": 20,
+          "is_active": true,
+          "created_at": "",
+          "updated_at": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "section_key": "articles",
+      "title": "Articles",
+      "icon_name": "file-text",
+      "sort_order": 40,
+      "items": []
+    }
+  ],
+  "timeline": [
+    {
+      "id": 1,
+      "title": "开始用 AI 做个人工作流",
+      "time_label": "2026",
+      "sort_order": 10,
+      "is_active": true,
+      "created_at": "",
+      "updated_at": ""
+    },
+    {
+      "id": 2,
+      "title": "持续做公开输出",
+      "time_label": "2025",
+      "sort_order": 20,
+      "is_active": true,
+      "created_at": "",
+      "updated_at": ""
+    },
+    {
+      "id": 3,
+      "title": "开始系统化整理项目",
+      "time_label": "2024.12",
+      "sort_order": 30,
+      "is_active": true,
+      "created_at": "",
+      "updated_at": ""
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "label": "LLM builder",
+      "sort_order": 10,
+      "is_active": true,
+      "created_at": "",
+      "updated_at": ""
+    },
+    {
+      "id": 2,
+      "label": "Open source",
+      "sort_order": 20,
+      "is_active": true,
+      "created_at": "",
+      "updated_at": ""
+    },
+    {
+      "id": 3,
+      "label": "Vibe coding",
+      "sort_order": 30,
+      "is_active": true,
+      "created_at": "",
+      "updated_at": ""
+    },
+    {
+      "id": 4,
+      "label": "Docker fan",
+      "sort_order": 40,
+      "is_active": true,
+      "created_at": "",
+      "updated_at": ""
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "如何把个人主页做轻而不是做重",
+      "slug": "lightweight-homepage",
+      "summary": "为什么个人主页更适合配置驱动而不是完整 CMS，以及轻量方案的取舍。",
+      "content": "这里放文章正文。",
+      "reading_minutes": 6,
+      "is_published": true,
+      "published_at": "2026-04-12T09:00:00.000Z",
+      "created_at": "",
+      "updated_at": ""
+    },
+    {
+      "id": 2,
+      "title": "个人网站的配置结构怎么设计",
+      "slug": "site-config-design",
+      "summary": "围绕 site-config.json 的字段组织、导入导出和长期维护策略。",
+      "content": "这里放文章正文。",
+      "reading_minutes": 8,
+      "is_published": true,
+      "published_at": "2026-04-10T09:00:00.000Z",
+      "created_at": "",
+      "updated_at": ""
+    }
+  ],
+  "theme_assets": {
+    "background_image_light_url": "https://simonsun.cc/static/img/background.png",
+    "background_image_dark_url": "https://simonsun.cc/static/img/background.png",
+    "page_bg_light": "#5f97c5",
+    "page_bg_dark": "#0a0a0f",
+    "card_bg_light": "rgba(45, 92, 130, 0.46)",
+    "card_bg_dark": "rgba(19, 20, 24, 0.62)",
+    "card_hover_light": "rgba(58, 109, 149, 0.62)",
+    "card_hover_dark": "rgba(30, 33, 38, 0.78)",
+    "accent_light": "#747bff",
+    "accent_dark": "#853eff",
+    "gradient_light": "linear-gradient(120deg, #bd34fe, #e0321b 30%, #41d1ff 60%)",
+    "gradient_dark": "linear-gradient(120deg, #853eff, #f76cc6 30%, #ffffff 60%)",
+    "timeline_dot_color": "#aaffcd",
+    "timeline_border_light": "rgba(255, 255, 255, 0.25)",
+    "timeline_border_dark": "rgba(255, 255, 255, 0.15)",
+    "overlay_light": "rgba(0, 0, 0, 0.55)",
+    "overlay_dark": "rgba(0, 0, 0, 0.7)",
+    "bg_blur_light": 18,
+    "bg_blur_dark": 22,
+    "bg_scale_light": "1.06",
+    "bg_scale_dark": "1.08"
+  }
+}
