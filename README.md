@@ -1,40 +1,40 @@
 # starfish-state
 
-A pure frontend single-page application.
+一个纯前端的单页面应用。
 
-## Features
+## 功能
 
-- Homepage display page
-- `/admin` configuration page
-- `public/site-config.json` for local configuration — no backend required
+- 首页展示页面
+- `/admin` 配置编辑页面
+- `public/site-config.json` 本地配置文件 — 无需后端
 
-## Getting Started
+## 快速开始
 
 ```bash
 npm install
 npm run dev
 ```
 
-Local URLs:
-- Homepage: `http://localhost:5173/`
-- Config page: `http://localhost:5173/admin`
+本地访问地址：
+- 首页：`http://localhost:5173/`
+- 配置页：`http://localhost:5173/admin`
 
-## Configuration
+## 配置方式
 
-The homepage content is driven by [public/site-config.json](./public/site-config.json). Edit this file directly, or use the `/admin` page to:
+首页内容由 [public/site-config.json](./public/site-config.json) 驱动。直接编辑该文件，或在 `/admin` 页面中：
 
-- Edit JSON
-- Save to browser localStorage
-- Import JSON
-- Export JSON
-- Reset to default
+- 编辑 JSON
+- 保存到浏览器本地存储
+- 导入 JSON
+- 导出 JSON
+- 恢复默认配置
 
-After saving locally, the homepage will immediately reflect the new configuration. Once verified, replace the project's `site-config.json` with the exported version.
+本地保存后，首页会立即读取新配置。确认无误后，将导出的 `site-config.json` 替换项目中的同名文件即可。
 
-## Build
+## 构建
 
 ```bash
 npm run build
 ```
 
-This produces a standard Vite static build, deployable to Vercel, Netlify, GitHub Pages, or any static hosting platform.
+产物为标准 Vite 静态构建，可直接部署到 Vercel、Netlify、GitHub Pages 或任意静态托管平台。
