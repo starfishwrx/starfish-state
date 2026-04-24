@@ -17,8 +17,8 @@
     "opportunity_statement": "寻找 AI 相关的机会",
     "sponsor_image_url": null,
     "qq_image_url": null,
-    "snake_light_url": "https://raw.githubusercontent.com/Tendo33/Tendo33/output/github-snake.svg",
-    "snake_dark_url": "https://raw.githubusercontent.com/Tendo33/Tendo33/output/github-snake-dark.svg",
+    "snake_light_url": "https://raw.githubusercontent.com/starfishwrx/starfishwrx/output/github-snake.svg",
+    "snake_dark_url": "https://raw.githubusercontent.com/starfishwrx/starfishwrx/output/github-snake-dark.svg",
     "skills_image_url": "https://skillicons.dev/icons?i=ts,react,vite,py,fastapi,postgres,docker,git&perline=8"
   },
   "icons": [
