@@ -28,7 +28,7 @@ export const PERSONAL_PROFILE = {
     siteLabel: "Your Home",
   },
   snakeMap: {
-    Light: 'https://raw.githubusercontent.com/Tendo33/Tendo33/output/github-snake.svg',
-    Dark: 'https://raw.githubusercontent.com/Tendo33/Tendo33/output/github-snake-dark.svg',
+    Light: 'https://raw.githubusercontent.com/starfishwrx/starfishwrx/output/github-snake.svg',
+    Dark: 'https://raw.githubusercontent.com/starfishwrx/starfishwrx/output/github-snake-dark.svg',
   },
 } as const;
