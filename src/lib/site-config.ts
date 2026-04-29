@@ -1,6 +1,6 @@
 import type { OverviewResponse } from '@/types/portfolio';
 
-const STORAGE_KEY = 'site-config-override-v1';
+const STORAGE_KEY = 'site-config-override-v2';
 export const SITE_CONFIG_UPDATED_EVENT = 'site-config-updated';
 
 function isRecord(value: unknown): value is Record<string, unknown> {

@@ -18,7 +18,7 @@
 }
 
 :root {
-  --main-bg-image: url('https://simonsun.cc/static/img/background.png');
+  --main-bg-image: url('/starfish-background.jpg');
   --page-bg: #5f97c5;
   --bg-blur: 18px;
   --bg-scale: 1.06;
@@ -36,7 +36,7 @@
 }
 
 html[data-theme='Dark'] {
-  --main-bg-image: url('https://simonsun.cc/static/img/background.png');
+  --main-bg-image: url('/starfish-background.jpg');
   --page-bg: #0a0a0f;
   --bg-blur: 22px;
   --bg-scale: 1.08;
